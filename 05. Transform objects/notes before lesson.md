@@ -12,3 +12,5 @@ There are 4 types of properties to transfrom objects:
 
 - These properties will be compiled in the matrices.
 
+- rotating objects, can use the quaternion property or rotation property.
+
