@@ -1,0 +1,21 @@
+/* it works but westill have the scrollbar */
+/* *{
+    margin:0;
+    padding: 0;
+} */
+
+.webgl{
+    /* we can also use absolute */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* sometimes you see a blue outline, this will fix it */
+    outline: none;
+}
+
+html,
+body{
+    /* when orbit is disabled you can scroll on trackpad, it
+    is not very immersive so we are going to disable the overflow */
+    overflow: hidden;
+}
